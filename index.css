@@ -4,6 +4,40 @@ body {
   left: 0;
   top: 0;
   font-family: "Times";
+  overscroll-behavior-y: none;
+}
+h1, a, p, span {
+  font-size: 12pt;
+  font-weight: 400;
+}
+p {
+  text-align: justify;
+  text-overflow: ellipsis;
+}
+a.nonsidebar {
+  color: #7692FF;
+  text-decoration: underline;
+}
+a.nonsidebar.title {
+  font-weight: 600;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a.selected {
+  color: #7692FF;
+}
+a:not(.selected):hover {
+  opacity: .75;
+  cursor: pointer;
+}
+img {
+  max-width: 200px;
+}
+div.article {
+  padding: 20px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,.1)
 }
 #container {
   display: flex;
@@ -25,28 +59,8 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 }
-h1, a {
-  font-size: 12pt;
-  font-weight: 400;
-}
-#container > div.left > a:hover {
-  opacity: .75;
-  cursor: pointer;
-}
 #container > div.right {
-  height: 100%;
-  width: 100%;
+  padding: 20px;
   flex: 1;
-}
-#about-c, #writing-c, #newsletter-c, #projects-c, #bookshelf-c, #contact-c {
-  height: 200px;
-  width: 100%;
   max-width: 600px;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-a.selected {
-  color: #7692FF;
 }
