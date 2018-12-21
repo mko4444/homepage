@@ -42,10 +42,8 @@ body {
   width: 100%;
   flex: 1;
 }
-#about-c {
-  background-color: blue;
-  height: 100%;
+#about-c, #writing-c, #newsletter-c, #projects-c, #bookshelf-c, #contact-c {
+  height: 200px;
   width: 100%;
   max-width: 600px;
-  flex: 1;
 }
