@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-family: "Times";
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
+}
+#container > div.left {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#container > div.left, #about-c {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#container > div.left > h1 {
+  font-size: 14pt;
+  font-weight: 600;
+}
+#container > div.left > a {
+  font-size: 12pt;
+  font-weight: 400;
+}
+#container > div.left > a:hover {
+  opacity: .75;
+  cursor: pointer;
+}
+#container > div.right {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+#about-c {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  flex: 1;
+}
