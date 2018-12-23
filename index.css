@@ -32,6 +32,9 @@ a:not(.selected):hover {
   opacity: .75;
   cursor: pointer;
 }
+h2 {
+  font-weight: 600;
+}
 img {
   max-width: 200px;
 }
