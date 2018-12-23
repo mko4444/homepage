@@ -33,6 +33,7 @@ a:not(.selected):hover {
   cursor: pointer;
 }
 h2 {
+  font-size: 12pt;
   font-weight: 600;
 }
 img {
