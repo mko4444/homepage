@@ -68,6 +68,6 @@ div.article {
   flex: 1;
   max-width: 600px;
 }
-span.bold {
-  font-weight: 600;
+.bold {
+  font-weight: 600 !important;
 }
