@@ -43,6 +43,9 @@ div.article {
   padding: 20px;
   box-shadow: 0px 1px 0px rgba(0,0,0,.1)
 }
+p.book-entry {
+  box-shadow: 0px 1px 0px rgba(0,0,0,.1)
+}
 #container {
   display: flex;
   flex-direction: row;
@@ -68,6 +71,6 @@ div.article {
   flex: 1;
   max-width: 600px;
 }
-.bold {
+span.bold {
   font-weight: 600 !important;
 }
