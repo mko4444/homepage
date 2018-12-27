@@ -43,7 +43,7 @@ div.article {
   padding: 20px;
   box-shadow: 0px 1px 0px rgba(0,0,0,.1)
 }
-p.book-entry {
+div.book-entry {
   padding-top: 10px;
   padding-bottom: 10px;
   box-shadow: 0px 1px 0px rgba(0,0,0,.1)
